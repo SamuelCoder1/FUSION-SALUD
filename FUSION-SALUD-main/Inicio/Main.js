@@ -1,27 +1,92 @@
+let slider = document.querySelector(".slider-contenedor")
+let sliderIndividual = document.querySelectorAll(".contenido-slider")
+let contador = 1;
+let width = sliderIndividual[0].clientWidth;
+let intervalo = 3000;
 
-document.addEventListener('DOMContentLoaded', () => {
-    let currentIndex = 0;
-    const items = document.querySelectorAll('.carousel-item');
-    const totalItems = items.length;
+window.addEventListener("resize", function(){
+    width = sliderIndividual[0].clientWidth;
+})
 
-    const showItem = (index) => {
-        items.forEach((item, i) => {
-            item.classList.remove('active');
-            if (i === index) {
-                item.classList.add('active');
-            }
-        });
-    };
+setInterval(function(){
+    slides();
+},intervalo);
 
-    document.querySelector('.carousel-control-next').addEventListener('click', () => {
-        currentIndex = (currentIndex + 1) % totalItems;
-        showItem(currentIndex);
-    });
 
-    document.querySelector('.carousel-control-prev').addEventListener('click', () => {
-        currentIndex = (currentIndex - 1 + totalItems) % totalItems;
-        showItem(currentIndex);
-    });
 
-    showItem(currentIndex);
-});
+function slides(){
+    slider.style.transform = "translate("+(-width*contador)+"px)";
+    slider.style.transition = "transform 2s";
+    contador++;
+
+    if(contador == sliderIndividual.length){
+        setTimeout(function(){
+            slider.style.transform = "translate(0px)";
+            slider.style.transition = "transform .9s";
+            contador=1;
+        },1500)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let items = document.querySelectorAll('.slider .item');
+    let next = document.getElementById('next');
+    let prev = document.getElementById('prev');
+    
+    let active = 3;
+    function loadShow(){
+        let stt = 0;
+        items[active].style.transform = `none`;
+        items[active].style.zIndex = 1;
+        items[active].style.filter = 'none';
+        items[active].style.opacity = 1;
+        for(var i = active + 1; i < items.length; i++){
+            stt++;
+            items[i].style.transform = `translateX(${120*stt}px) scale(${1 - 0.2*stt}) perspective(16px) rotateY(-1deg)`;
+            items[i].style.zIndex = -stt;
+            items[i].style.filter = 'blur(5px)';
+            items[i].style.opacity = stt > 2 ? 0 : 0.6;
+        }
+        stt = 0;
+        for(var i = active - 1; i >= 0; i--){
+            stt++;
+            items[i].style.transform = `translateX(${-120*stt}px) scale(${1 - 0.2*stt}) perspective(16px) rotateY(1deg)`;
+            items[i].style.zIndex = -stt;
+            items[i].style.filter = 'blur(5px)';
+            items[i].style.opacity = stt > 2 ? 0 : 0.6;
+        }
+    }
+    loadShow();
+    next.onclick = function(){
+        active = active + 1 < items.length ? active + 1 : active;
+        loadShow();
+    }
+    prev.onclick = function(){
+        active = active - 1 >= 0 ? active - 1 : active;
+        loadShow();
+    }
+
+
+
+
+
+
