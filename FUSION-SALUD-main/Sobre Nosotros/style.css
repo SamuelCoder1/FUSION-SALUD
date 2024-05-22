@@ -2,9 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
-
 }
+
 :root{
     --background-color:#FFFFFF;
     --primary-color:#092F45;
