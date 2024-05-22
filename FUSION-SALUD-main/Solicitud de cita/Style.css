@@ -220,15 +220,15 @@ p,a,li{
     display: flex;
     background-color: #5C8DA9;
     border-radius: 35px;
-    width: 1300px;
-    height: 600px;
+    width: 1100px;
     padding: 50px;
+    margin-bottom: 100px;
 }
 .form input{
-    margin: 10px 40px 30px 10px;
+    margin: 5px 40px 30px 5px;
     background-color:#ddd;
-    width: 400px;
-    height: 40px;
+    width: 380px;
+    height: 45px;
     border-radius: 10px;
     border: none;
 }
@@ -247,4 +247,23 @@ p,a,li{
 .form img{
     width: 450px;
     height: 500px;
+}
+
+.specialties{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+}
+
+.cards{
+    background-color: #ddd;
+    padding: 10px;
+    font-size: 25px;
+    width: 400px;
+    color: #092F45;
+    border-radius: 10px;
+}
+.cards img{
+    height: 70px;
 }
