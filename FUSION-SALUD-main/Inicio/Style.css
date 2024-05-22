@@ -78,9 +78,9 @@ p,a,li{
 }
 .horizontal2{
     width: 90%;
-    background-color: black;
+    background-color:var(--second-color);
     height: 1px;
-    margin-left: 120px;
+    margin-left: 110px;
 }
 .dropdown-menu{
     background-color: var(--primary-color);
@@ -114,7 +114,7 @@ p,a,li{
     width: 100%;
     overflow: hidden;
     z-index: -1;
-    gap: 0;
+    gap: 0px;
 }
 
 .slider-contenedor{
@@ -129,7 +129,7 @@ p,a,li{
     height: 550px;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 100px;
     align-items: center;
     flex-shrink: 0;
 }
@@ -151,7 +151,7 @@ p,a,li{
     font-weight: 600;
     color: var(--primary-color);
     font-size: 35px;
-    font-family: "Righteous","sans-serif";
+    font-family:"Righteous","Sans-Serif";
     
 }
 .information-notices p{
@@ -164,39 +164,74 @@ p,a,li{
     width: 130px;
 }
 /* -----------------------Servicios Destacados-------------------------------- */
+.services-outstanding {
+    z-index: -1;
+    background-image: url(./assets/Img/fondo.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.services-outstanding h1{
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 50px;
+    padding-top: 30px;
+}
 .slider{
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
-    top: 30px;
+    top: 70px;
+    z-index: 99;
 }
 .item{
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 400px;
-    height: 420px;
+    height: 470px;
     text-align: justify;
-    background-color:var(--second-color);
+    background-color:#138c9c41;
     border-radius: 10px;
     padding: 20px;
     transition: 0.5s;
     left: calc(45% - 110px);
-    top: 0;
+    top: 0px;
+}
+.item img{
+    height: 80px;
+    margin-top: 30px;
+    
+}
+.item h1{
+    text-align: center;
+    font-family:"Righteous","Sans-Serif";
+    font-size: 40px;
+    font-weight: 550;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+.item p{
+    font-family: "poppins";
+    font-size: 20px;
+    text-align: start;
+    padding-left: 30px;
+    font-weight: 550;
 }
 #next, #prev{
     position: absolute;
-    top: 20%;
-    color: #bd1212;
-    background-color: transparent;
-    border: none;
-    font-size: xxx-large;
-    font-family: monospace;
-    font-weight: bold;
-    left:400px;
+    top: 38%;
+    height: 50px;
+    left:350px;
 }
 #next{
     left: unset;
-    right: 400px;
+    right: 350px;
 }
 /* ------------------------Footer--------------------------- */
 .footer {
