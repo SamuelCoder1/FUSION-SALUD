@@ -146,7 +146,7 @@ p,a,li{
 }
 
 .general-objective{
-    padding: 0% 7% 10% 7%;
+    padding: 0% 7% 0% 7%;
     display: flex;
     gap: 40px;
     width: 100%;
@@ -284,6 +284,8 @@ p,a,li{
     width: 100px;
     height: 100px;
 }
+
+/* ---------------FOOTER---------------------- */
 
 .footer {
     display: flex;
