@@ -558,7 +558,7 @@ p,a,li{
     }
     
 }
-@media (max-width:1125px){
+@media (max-width:1225px){
     .footer{
         flex-wrap: wrap;
         justify-content: center;
@@ -825,12 +825,15 @@ p,a,li{
         height: auto;
         padding: 5px;
     }
+    .item h1{
+        font-size: 30px;
+    }
 
     #next, #prev {
         height: 30px;
     }
     #prev{
-        left:100px;
+        left:60px;
     }
 
     #next {
