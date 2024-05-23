@@ -31,7 +31,7 @@ p,a,li{
 .navbar{
     position: fixed;
     width: 100%;
-    z-index: 20;
+    z-index: 22;
     padding: 0;
 }
 
