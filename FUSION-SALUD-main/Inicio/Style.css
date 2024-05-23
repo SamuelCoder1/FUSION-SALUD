@@ -340,10 +340,6 @@ p,a,li{
         margin-top: 50px;
         margin-right: 50px;
     }
-    .contenido-slider img{
-        width:350px;
-    }
-
     .contenido-slider {
         height: 500px;
     }
@@ -354,7 +350,14 @@ p,a,li{
     }
     
     .contenido-slider h2{
-        font-size: 23px;
+        font-size: 33px;
+    }
+    #prev {
+        left:250px;
+    }
+
+    #next {
+        right: 250px;   
     }
     
 }
@@ -369,6 +372,9 @@ p,a,li{
     .horizontal{
         display: block;
         margin-top: 30px;
+    }
+    .horizontal2{
+       margin-left: 30px;
     }
     .vr{
         display: none;
@@ -393,22 +399,136 @@ p,a,li{
     }
     .information-notices h2 {
         margin-top: 40px; 
+        font-size: 30px;
+    }
+    #prev {
+        left:150px;
+    }
+
+    #next {
+        right: 80px;
     }
 }
 
 
-@media  (max-width:900px){
-    .contenido-slider{
+
+/* Media query para tablets */
+@media (max-width: 900px) {
+    .contenido-slider {
         flex-direction: column;
         height: auto;
         gap: 0px;
-}   
-
-    .contenido-slider div{
-        width: 80%;
+        width: 100%;
     }
 
+    .contenido-slider img {
+        width: 80%;
+        height: auto;
+        margin-top: 120px;
+    }
+
+    .information-notices {
+        width: 100%;
+    }
+
+    .information-notices h2 {
+        font-size: 38px;
+        width: 100%;
+    }
+
+    .information-notices p {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .btn-notices {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .slider {
+        height: 800px;
+        
+    }
+
+    .item {
+        width: 50%;
+        height: auto;
+        padding: 10px;
+        
+    }
+
+    #next, #prev {
+        height: 40px;
+       
+    }
+
+    #prev {
+        left:150px;
+        top: 250px;
+    }
+
+    #next {
+        right: 50px;
+        top: 250px;
+
+    }
 }
+
+/* Media query para móviles */
+@media (max-width: 720px) {
+    .contenido-slider {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+
+    .contenido-slider img {
+        width: 70%;
+        height: auto;
+        margin-top: 130px;
+    }
+
+    .information-notices {
+        width: 100%;
+     
+    }
+
+    .information-notices h2 {
+        font-size: 34px;
+    }
+
+    .information-notices p {
+        font-size: 20px;
+    }
+
+    .btn-notices {
+        width: 90px;
+        font-size: 12px;
+    }
+
+    .slider {
+        height: 700px;
+    }
+
+    .item {
+        width: 50%;
+        height: auto;
+        padding: 5px;
+    }
+
+    #next, #prev {
+        height: 30px;
+    }
+    #prev{
+        left:100px;
+    }
+
+    #next {
+        right: 70px;
+    }
+}
+
 
 
 
