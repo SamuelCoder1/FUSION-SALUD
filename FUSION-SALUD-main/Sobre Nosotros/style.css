@@ -146,7 +146,7 @@ p,a,li{
 }
 
 .general-objective{
-    padding: 0% 7% 0% 7%;
+    padding: 0% 7% 10% 7%;
     display: flex;
     gap: 40px;
     width: 100%;
@@ -171,6 +171,11 @@ p,a,li{
     justify-content: center;
     height: 100%;
     font-size: 20px;
+    text-align: left;
+}
+
+.text-general h1{
+    text-align: left;
 }
 
 .img-general{
@@ -213,7 +218,7 @@ p,a,li{
 }
 
 .vision{
-    padding: 0% 7% 0% 7%;
+    padding: 0% 7% 4% 7%;
     display: flex;
     gap: 40px;
     width: 100%;
@@ -249,25 +254,31 @@ p,a,li{
 
 .roles-about{
     display: flex;
-    gap: 10%;
+    flex-wrap: wrap;
+    gap: 5%;
     width: 100%;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    padding: 0 5% 0 5%;
+    padding: 0 2% 0% 2%;
 }
 
 .roles{
     text-align: center;
+    width: 20%;
+    height: 200px;
 }
 
 .roles h3{
     font-weight: 500;
+    font-size: 25px;
 }
 
 .roles h4{
     font-weight: 400;
+    font-size: 20px;
 }
+
 
 .user-about{
     width: 100px;
@@ -368,6 +379,14 @@ p,a,li{
     color: var(--background-color);
 }
 
+.hidden-roles{
+    display: none;
+}
+
+.hidden-roles2{
+    display: none;
+}
+
 @media (max-width:1550px){
     .navbar-nav{
         margin-left:40%;
@@ -438,6 +457,10 @@ p,a,li{
         padding: 20% 0 0 0%;
     }
 
+    .text-general h1{
+        text-align: center;
+    }
+
     .general-objective{
         flex-direction: column;
         width: 100%;
@@ -459,7 +482,7 @@ p,a,li{
     .vision{
         flex-direction: column;
         width: 100%;
-        padding: 0;
+        padding: 0 0 10% 0;
         text-align: center;
     }
 
@@ -490,6 +513,39 @@ p,a,li{
 
     .text-vision{
         width: 90%;
+    }
+
+    .roles-about{
+        display: none;
+    }
+
+    .hidden-roles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .hidden-roles2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .container-hidden-roles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 0 0 10% 0;
+    }
+
+    .rol{
+        width: 100%;
+        height: 200px;
+        text-align: center;
     }
 }
 
