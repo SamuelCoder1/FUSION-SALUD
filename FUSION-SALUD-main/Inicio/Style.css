@@ -175,7 +175,7 @@ p,a,li{
     text-align: center;
     color: var(--primary-color);
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 4rem;
     margin-top: 50px;
     padding-top: 30px;
 }
@@ -232,6 +232,28 @@ p,a,li{
 #next{
     left: unset;
     right: 350px;
+}
+/* ----------------------------------------------------------- */
+/* ---------------------------Planes de afiliacion-------------------------------- */
+#title-plans{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 4rem;
+    font-family:"Righteous","Sans-Serif";
+    color: var(--primary-color);
+    font-weight: 550;
+}
+.plans{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 80px;
+    
+}
+.card{
+    width: 25%;
+    height: 400px;
 }
 /* ------------------------Footer--------------------------- */
 .footer {
