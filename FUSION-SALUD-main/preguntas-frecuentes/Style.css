@@ -33,8 +33,9 @@ p,a,li{
 
 .navbar{
     position: fixed;
+    top: 0;
     width: 100%;
-    z-index: 200;
+    z-index: 20;
     padding: 0;
 }
 
@@ -108,7 +109,35 @@ p,a,li{
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 }
+/* --------------------Preguntas-Frecuentes------------------------- */
 
+.container-questions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.frecuent-questions{
+    justify-content: center;
+    margin-top: 160px;
+    background-color: #a09d9d;
+    padding: 0 60px ;
+    width: 60%;
+    height: auto;
+    border-radius: 30px;
+    bottom: 30px;
+}
+
+.accordion{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+.accordion-item{
+    margin-top: 20px;
+   
+}
 /* ------------------------Footer--------------------------- */
 .footer {
     display: flex;
