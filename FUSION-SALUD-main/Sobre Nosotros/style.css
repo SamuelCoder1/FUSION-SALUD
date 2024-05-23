@@ -285,6 +285,8 @@ p,a,li{
     height: 100px;
 }
 
+/* ---------------FOOTER---------------------- */
+
 .footer {
     display: flex;
     flex-wrap: wrap;
