@@ -2,8 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
-
 }
 :root{
     --background-color:#FFFFFF;
@@ -19,6 +17,9 @@ h1,h2{
 p,a,li{
     font-family: 'poppins';
 }
+
+/* ------------------NAV------------------ */
+
 .container-fluid{
     margin: 0;
     padding: 0;
@@ -27,6 +28,12 @@ p,a,li{
 .img-nav{
     height: 85px;
     margin: 15px;
+}
+
+.navbar{
+    position: fixed;
+    padding: 0;
+    width: 100%;
 }
 
 .navbar-nav{
@@ -93,6 +100,211 @@ p,a,li{
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 }
+
+/* --------------------SERVICE VETERINARY---------------- */
+
+.vet-service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    padding: 10% 0 5% 0;
+}
+
+.title-vet h1{
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    width: 100%;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.title-vet p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+}
+
+.line-vet{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 2% 0;
+}
+
+.line-vet2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 5% 0;
+}
+
+.line{
+    width: 95%; 
+    background-color: #676767;
+    border-top: 1px solid #000000;
+}
+
+.line2{
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    border: white 1px solid;
+}
+
+.line3{
+    width: 95%;
+    background-color: #676767;
+    border-top: 1px solid #000000;
+}
+
+.container-vet{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    padding: 0 5% 0 5%;
+    gap: 5%;
+}
+
+.box-vet{
+    width: 25%;
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.info-vet{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.text-vet{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 18px;
+}
+
+.container-button-vet{
+    width: 40%;
+}
+
+.btn2{
+    background-color: var(--primary-color);
+    margin-top: 30px;
+    border-radius: 40px;
+    border: none;
+    margin-left: 5px;
+    color: var(--background-color);
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+}
+
+.btn2:hover{
+    background-color: var(--second-color);
+}
+
+
+.container-img-vet{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 0% 0% 0% 5%;
+    flex-direction: column;
+}
+
+.container-img-vet{
+    height: 600px;
+}
+
+.img-vet1{
+    width: 300px;
+    height: 300px;
+    border-radius: 360px;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.img-vet2{
+    width: 300px;
+    height: 300px;
+    border-radius: 360px;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+
+.consultation{
+    padding: 5% 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-consultation{
+    width: 120px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.esthetic{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-esthetic{
+    width: 100px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.surgery{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-surgery{
+    width: 100px;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+
+/* ------------------SLIDER------------- */
+
+
+
+/* --------------FOOTER------------ */
 
 .footer {
     display: flex;
