@@ -455,29 +455,16 @@ p,a,li{
     margin-top: 30px;
     font-weight: 510;
 }
-<<<<<<< HEAD
 .popup-content a{
-=======
-.popup-content button {
->>>>>>> c61daf6685150c2c7cb4f0e5a5c510c11bcb1e77
     border: none;
     background-color: var(--primary-color);
     font-size: 20px;
     width: 40%;
     height: 15%;
-<<<<<<< HEAD
     border-radius: 30px;
     padding: 15px;
     text-decoration: none;
-=======
-    border-radius: 20px;
-    margin-top: 40px;
-    
-}
-.popup-content a{
-    text-decoration: none;
-    color: var(--background-color);
->>>>>>> c61daf6685150c2c7cb4f0e5a5c510c11bcb1e77
+    color: #FFFFFF;
 }
 .close {
     color: #092F45;
