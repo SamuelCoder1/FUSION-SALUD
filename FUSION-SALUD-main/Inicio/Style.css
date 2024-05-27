@@ -455,15 +455,16 @@ p,a,li{
     margin-top: 30px;
     font-weight: 510;
 }
-.popup-content button{
+.popup-content a{
     border: none;
     background-color: var(--primary-color);
     color: var(--background-color);
     font-size: 20px;
     width: 40%;
     height: 15%;
-    border-radius: 20px;
-    margin-top: 40px;
+    border-radius: 30px;
+    padding: 15px;
+    text-decoration: none;
 }
 .close {
     color: #092F45;
