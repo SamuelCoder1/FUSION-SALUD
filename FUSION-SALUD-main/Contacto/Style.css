@@ -254,7 +254,7 @@ p,a,li{
     display: flex;
     flex-direction: column;
     width: 100%;
-    align-items: center;
+
     padding: 20px;
     background-color: #06A1B4;
     border-radius: 20px;
@@ -262,7 +262,10 @@ p,a,li{
     max-width: 400px;
 }
 .form h2{
-    padding: 20px;
+    font-weight:bold;
+}
+.form p{
+    color: #FFFFFF;
 }
 .form a{
     padding: 5px;
@@ -300,4 +303,15 @@ textarea{
     height: 440px;
     width: 600px;
     border-radius: 20px;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1200px) {
+   .image{
+    display: none;
+   }
+   .form{
+    justify-content: center;
+   }
 }
