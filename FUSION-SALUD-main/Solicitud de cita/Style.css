@@ -350,15 +350,13 @@ p,a,li{
     }
 }
 
-<<<<<<< HEAD
-=======
 .form{
-
     background-color: #5C8DA9;
     border-radius: 35px;
     width: 100px;
     margin-bottom: 100px;
-    width: 50%;
+    width: 900px;
+    max-width: 900px;
     margin-top: 150px;
 }
 .form-childs{
@@ -399,7 +397,8 @@ p,a,li{
 }
 #btn {
     background-color: #092F45;
-    width: 100px;
+    width: 150px;
+    text-align: center;
     color: #FFFFFF;
     font-size: 15px;
 }
@@ -482,12 +481,12 @@ p,a,li{
     }
 }
 
-@media (max-width:1350px){
-    .cards{
-        font-size: 20px;
+@media (max-width:950px){
+    .form{
+        width: 400px;
     }
-    .int img{
-        height: 50px;
+    .img{
+        display: none;
     }
+
 }
->>>>>>> e500637bd9362af634346e592a665a27c73aa1a5
