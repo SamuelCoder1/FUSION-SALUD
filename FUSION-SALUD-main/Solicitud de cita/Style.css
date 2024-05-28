@@ -445,7 +445,6 @@ p,a,li{
     margin-top: 30px;
     text-align:justify;
     font-size: 15px;
-
 }
 .text p {
     display: none;}
@@ -460,4 +459,22 @@ p,a,li{
     width: 80%;
     margin: auto;
     text-align: center;
+}
+
+@media (max-width:1350px){
+    .cards{
+        font-size: 20px;
+    }
+    .int img{
+        height: 50px;
+    }
+}
+
+@media (max-width:1350px){
+    .cards{
+        font-size: 20px;
+    }
+    .int img{
+        height: 50px;
+    }
 }
