@@ -36,7 +36,7 @@ p,a,li{
 }
 
 .navbar-nav{
-    margin-left:50%;
+    margin-left:40%;
     gap: 20px;
 }
 
@@ -117,7 +117,7 @@ p,a,li{
 
 .title-about h1{
     text-align: center;
-    font-family: "Righteous", sans-serif;
+    font-family: "Justo", sans-serif;
     width: 100%;
     font-weight: 800;
     color: var(--primary-color);
