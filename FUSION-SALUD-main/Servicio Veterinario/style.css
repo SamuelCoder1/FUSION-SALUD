@@ -189,7 +189,7 @@ p,a,li{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    text-align: justify;
     gap: 10px;
 }
 
@@ -210,11 +210,12 @@ p,a,li{
 
 .container-button-vet{
     width: 40%;
+    height: auto;
+    object-fit: contain;
 }
 
 .btn2{
     background-color: var(--primary-color);
-    margin-top: 30px;
     border-radius: 40px;
     border: none;
     margin-left: 5px;
@@ -506,8 +507,9 @@ p,a,li{
 }
 
 .text-pets{
-    width: 80%;
+    width: 100%;
     text-align: center;
+    height: 100px;
     font-size: 25px;
 }
 
@@ -613,6 +615,8 @@ p,a,li{
     color: var(--background-color);
 }
 
+/* --------------RESPONSIVE NAV AND FOOTER */
+
 @media (max-width:1250px){
     .navbar-nav{
         margin-left:23%;
@@ -648,3 +652,273 @@ p,a,li{
     }
 }
 
+/* --------------RESPONSIVE------------ */
+@media (max-width:1300px){
+    .img-pets{
+        width: 350px;
+        height: 350px;
+    }
+    
+    .content-pets{
+        display: flex;
+        gap: 5%;
+    }
+
+    .container-pets{
+        width: 30%;
+        gap: 5%;
+    }
+
+    .img-consultation{
+        width: 90px;
+    }
+
+    .consultation h2{
+        font-size: 22px;
+    }
+
+    .img-esthetic{
+        width: 90px;
+    }
+
+    .esthetic h2{
+        font-size: 22px;
+    }
+
+    .img-surgery{
+        width: 90px;
+    }
+
+    .surgery h2{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:1100px){
+    .img-consultation{
+        width: 90px;
+    }
+
+    .consultation h2{
+        font-size: 22px;
+    }
+
+    .img-esthetic{
+        width: 90px;
+    }
+
+    .esthetic h2{
+        font-size: 22px;
+    }
+
+    .img-surgery{
+        width: 90px;
+    }
+
+    .surgery h2{
+        font-size: 22px;
+    }
+
+    .img-pets{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .content-pets{
+        display: flex;
+        gap: 5%;
+    }
+
+    .container-pets{
+        width: 30%;
+        gap: 5%;
+    }
+
+    .vet-service{
+        padding: 120px 0 0 0;
+    }
+}
+
+@media (max-width:900px){
+
+    .img-pets{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .content-pets{
+        display: flex;
+        gap: 5%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-pets{
+        width: 30%;
+    }
+
+    .text-pets p{
+        font-size: 15px;
+    }
+
+    .box-vet{
+        width: 30%;
+    }
+
+    .info-vet{
+        width: 40%;
+        gap: 0px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text-vet{
+        gap: 0px;
+    }
+
+    .text-vet p{
+        font-size: 16px;
+    }
+
+    .container-img-vet{
+        width: 30%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-vet1{
+        width: 230px;
+        height: 230px;
+    }
+
+    .img-vet2{
+        width: 230px;
+        height: 230px;
+    }
+
+    .container-button-vet{
+        height: 50px;
+        width: 120px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .button-vet{
+        height: 50px;
+        width: 120px;
+        object-fit: contain;
+    }
+
+    .vet-service{
+        padding: 120px 0 0 0;
+    }
+
+}
+
+@media (max-width:600px){
+    .img-pets{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .content-pets{
+        display: flex;
+        gap: 8%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-pets{
+        width: 25%;
+    }
+
+    .text-pets p{
+        font-size: 15px;
+    }
+
+    .container2{
+        height: 500px;
+    }
+
+    .container-vet{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-vet{
+        width: 45%;
+        height: 700px;
+    }
+
+    .info-vet{
+        width: 50%;
+        gap: 0px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text-vet{
+        gap: 0px;
+    }
+
+    .text-vet p{
+        font-size: 16px;
+    }
+
+    .container-img-vet{
+        display: none;
+    }
+
+    .img-vet1{
+        display: none;
+    }
+
+    .img-vet2{
+        display: none;
+    }
+
+    .vet-service{
+        padding: 120px 0 0 0;
+    }
+
+    .container-vet{
+        height: 850px;
+    }
+
+    .container2{
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-pets{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 300px;
+    }
+
+    .img-consultation{
+        width: 90px;
+    }
+
+    .consultation h2{
+        font-size: 20px;
+    }
+
+    .img-esthetic{
+        width: 90px;
+    }
+
+    .esthetic h2{
+        font-size: 20px;
+    }
+
+    .img-surgery{
+        width: 90px;
+    }
+
+    .surgery h2{
+        font-size: 20px;
+    }
+
+}
