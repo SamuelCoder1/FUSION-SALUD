@@ -317,6 +317,11 @@ p,a,li{
         margin-top: 50px;
         margin-right: 50px;
     }
+    .user-footer a{
+        text-decoration: none;
+        color: var(--background-color);
+    
+    }
 
 }
 @media (max-width:1125px){
@@ -338,15 +343,20 @@ p,a,li{
         margin-left:5%;
         gap: 0px;align-items: center;
     }
+    .user-footer a{
+        text-decoration: none;
+        color: var(--background-color);
+    
+    }
 }
 
 .form{
-
     background-color: #5C8DA9;
     border-radius: 35px;
     width: 100px;
     margin-bottom: 100px;
-    width: 50%;
+    width: 900px;
+    max-width: 900px;
     margin-top: 150px;
 }
 .form-childs{
@@ -387,7 +397,8 @@ p,a,li{
 }
 #btn {
     background-color: #092F45;
-    width: 100px;
+    width: 150px;
+    text-align: center;
     color: #FFFFFF;
     font-size: 15px;
 }
@@ -476,37 +487,12 @@ p,a,li{
     
 }
 
-@media (max-width:1080px){
+@media (max-width:1350px){
     .cards{
-        width: 30%;
+        font-size: 20px;
+    }
+    .int img{
+        height: 50px;
     }
 
-    .int{
-        width: 100%;
-        font-size: 22px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-@media (max-width:850px){
-    .specialties{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .cards{
-        width: 80%;
-    }
-}
-
-
-@media (max-width:700px){
-    .specialties{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
 }

@@ -770,7 +770,7 @@ p,a,li{
     }
     .popup-content {
         width: 90%;
-        height: auto;
+        height: 300px;
         margin-top: 40%;
     }
     
@@ -780,13 +780,13 @@ p,a,li{
     
     .popup-content p {
         font-size: 20px;
-        margin-bottom: 0;
+        margin-bottom: 20px;
     }
     
     .popup-content button {
         font-size: 14px;
         width: 40%;
-        height: 50%;
+       
         
     }
     
@@ -869,6 +869,17 @@ p,a,li{
     
     .card {
         width: 70%;
+    }
+
+    .popup-content p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .popup-content button {
+        font-size: 14px;
+        width: 40%;
+        
     }
 }
 
