@@ -312,15 +312,14 @@ textarea{
     }
 }
 
-
-<<<<<<< HEAD:FUSION-SALUD-main/Contacto/Style.css
-=======
+.form{
     padding: 20px;
     background-color: #5C8DA9;
     border-radius: 20px;
     height: 440px;
     max-width: 400px;
 }
+
 .form h2{
     font-weight:bold;
 }
@@ -364,7 +363,6 @@ textarea{
     width: 600px;
     border-radius: 20px;
 }
->>>>>>> 1d0852af5a56c1b9065c4184a4c7cfbbae94dddb:FUSION-SALUD-main/Contacto/style.css
 
 /*Responsive*/
 
