@@ -110,10 +110,7 @@ p,a,li{
 }
 /* ------------------------------------------------------------------ */
 /* ---------------------------Formulario----------------------------------- */
-.date{
-    text-align: center;
-    
- }
+
  .form{
     display: flex;
     flex-direction: row;
@@ -353,3 +350,144 @@ p,a,li{
     }
 }
 
+<<<<<<< HEAD
+=======
+.form{
+
+    background-color: #5C8DA9;
+    border-radius: 35px;
+    width: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+    margin-top: 150px;
+}
+.form-childs{
+    width: 40%;
+    color: #FFFFFF;
+    font-size: 20px;  
+    text-align: center;
+    width: 100%;
+}
+
+.form-childs select{
+    width: 100%;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #333;
+    margin: auto;
+}
+.form-childs label{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.form-childs input{
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+#btn {
+    background-color: #092F45;
+    width: 100px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+#btn:hover {
+    background-color: #06A1B4;
+}
+
+.form button{
+    padding: 10px;
+    color: white;
+    background-color: #092F45;
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+    font-weight:bold ;
+    border-radius: 100px;
+    border: none;
+}
+
+.form img{
+    width: 90%;
+    height: 500px;
+}
+
+.specialties{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 70%;
+}
+
+.cards{
+    margin: 0 5px 0 5px;
+    background-color: #ddd;
+    padding: 20px;
+    font-size: 25px;
+    width: 350px;
+    color: #092F45;
+    border-radius: 10px;
+}
+.int{
+    display: flex;
+    align-items: center;
+}
+.int img{
+    height: 65px;
+    margin-left: auto;
+}
+
+.cards:hover .text p {
+    display: block;
+  }
+
+.text {
+    margin-top: 30px;
+    text-align:justify;
+    font-size: 15px;
+}
+.text p {
+    display: none;}
+    
+.cards:hover .text p {
+    display: block;}
+
+.info {
+    display: none;
+}
+.title{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+@media (max-width:1350px){
+    .cards{
+        font-size: 20px;
+    }
+    .int img{
+        height: 50px;
+    }
+}
+
+@media (max-width:1350px){
+    .cards{
+        font-size: 20px;
+    }
+    .int img{
+        height: 50px;
+    }
+}
+>>>>>>> e500637bd9362af634346e592a665a27c73aa1a5
