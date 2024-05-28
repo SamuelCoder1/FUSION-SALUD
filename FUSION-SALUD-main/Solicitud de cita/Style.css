@@ -110,10 +110,7 @@ p,a,li{
 }
 /* ------------------------------------------------------------------ */
 /* ---------------------------Formulario----------------------------------- */
-.date{
-    text-align: center;
-    
- }
+
  .form{
     display: flex;
     flex-direction: row;
@@ -344,51 +341,49 @@ p,a,li{
 }
 
 .form{
-    display: flex;
-    flex-direction: row;
+
     background-color: #5C8DA9;
     border-radius: 35px;
     width: 100px;
-    padding: 50px;
     margin-bottom: 100px;
     width: 50%;
     margin-top: 150px;
-    align-items: center;
 }
 .form-childs{
-    width: 50%;
-    align-items: center;
+    width: 40%;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 20px;  
+    text-align: center;
+    width: 100%;
 }
+
 .form-childs select{
-    width: 80%;
+    width: 100%;
     padding: 10px;
     background-color: #FFFFFF;
     border: none;
     outline: none;
     border-radius: 20px;
     color: #333;
+    margin: auto;
 }
 .form-childs label{
-    width: 100%;
     background-color: #FFFFFF;
     border: none;
     outline: none;
     border-radius: 20px;
     color: #333;
-    margin: 10px 30px;
+    margin: 10px 0;
 }
 
 .form-childs input{
-    width: 100%;
     padding: 10px;
     background-color: #FFFFFF;
     border: none;
     outline: none;
     border-radius: 20px;
     color: #333;
-    margin: 10px 30px;
+    margin: 10px 0;
 }
 #btn {
     background-color: #092F45;
@@ -413,15 +408,14 @@ p,a,li{
 }
 
 .form img{
-    width: 80%;
+    width: 90%;
     height: 500px;
-    margin-left: 50px;
 }
 
 .specialties{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    margin: auto;
     width: 70%;
 }
 
@@ -451,4 +445,9 @@ p,a,li{
 }
 .info {
     display: none;
+}
+.title{
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
