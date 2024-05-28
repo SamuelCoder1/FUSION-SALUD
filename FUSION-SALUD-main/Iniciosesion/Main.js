@@ -6,23 +6,13 @@ const btnSigIn = document.getElementById("sign-in"),
   wndw = document.querySelector(".window"),
   Closed = document.getElementById("close");
 
-btnSigIn.addEventListener("click", e => {
-    formRegister.classList.add("hide");
-    formLogin.classList.remove("hide");
+const info = document.getElementById("info"),
+    card = document.querySelector(".text");
+
+card.addEventListener("mouseover", e => {
+        card.classList.remove("info");
 })
 
-btnSigUp.addEventListener("click", e => {
-    formLogin.classList.add("hide");
-    formRegister.classList.remove("hide");
-})
 
-Open.addEventListener("click", (e) => {
-    wndw.classList.remove("emergent");
-
-});
-
-Closed.addEventListener("click", (e) => {
-    wndw.classList.add("emergent");
-});
 
 
