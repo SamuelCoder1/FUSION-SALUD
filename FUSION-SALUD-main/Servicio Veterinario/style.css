@@ -113,18 +113,18 @@ p,a,li{
 }
 
 .title-vet h1{
-    text-align: center;
-    font-family: "Righteous", sans-serif;
-    width: 100%;
-    font-weight: 800;
+    text-align: center ;
+    font-size: 3.5rem;
+    font-weight: 550;
     color: var(--primary-color);
+    margin-bottom: 30px;
 }
 
 .title-vet p{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .line-vet{
@@ -198,6 +198,14 @@ p,a,li{
     flex-direction: column;
     gap: 5px;
     font-size: 18px;
+}
+
+.objetive{
+    text-align: center ;
+    font-size: 2.0rem;
+    font-weight: 550;
+    color: var(--primary-color);
+    margin-bottom: 30px;
 }
 
 .container-button-vet{
@@ -316,11 +324,15 @@ p,a,li{
     color: var(--primary-color);
     margin-bottom: 30px;
 }
+
 .slider-container{
     width: 100%;
     display: flex;
     margin-top: 40px;
-    
+}
+
+.text-pets p{
+    font-size: 22px;
 }
 
 .content-slider{
