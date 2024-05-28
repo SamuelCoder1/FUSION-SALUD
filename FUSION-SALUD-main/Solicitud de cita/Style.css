@@ -110,17 +110,22 @@ p,a,li{
 }
 /* ------------------------------------------------------------------ */
 /* ---------------------------Formulario----------------------------------- */
-.form{
+.date{
+    text-align: center;
+    
+ }
+ .form{
     display: flex;
     flex-direction: row;
     background-color: #5C8DA9;
     border-radius: 35px;
     width: 100px;
     padding: 50px;
-    margin-bottom: 100px;
-    width: 50%;
-    margin-top: 150px;
+    margin-bottom: 60px;
+    width: 70%;
+    margin-top: 100px;
     align-items: center;
+    margin: auto;
 }
 .form-childs{
     width: 50%;
@@ -129,7 +134,7 @@ p,a,li{
     font-size: 20px;
 }
 .form-childs select{
-    width: 80%;
+    width: 0%;
     padding: 10px;
     background-color: #FFFFFF;
     border: none;
@@ -209,9 +214,9 @@ p,a,li{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-start; 
     padding: 20px;
-    background-color:var(--primary-color)
+    background-color:var(--primary-color) 
 }
 
 .img-footer{
@@ -221,47 +226,52 @@ p,a,li{
     margin-right: 100px;
 }
 
-.usuario-footer{
+.user-footer{
     margin-top: 30px;
 }
 
-.usuario-footer h3{
+.user-footer h3{
     color: var(--background-color);
     margin-left: 10px;
     margin-bottom: 20px;
 }
 
-.usuario-footer  li{
-    color: var(--background-color);
+.user-footer  li{
     list-style: none;
+    color: var(--background-color);
     margin-top: 10px;
 }
+.user-footer a{
+    text-decoration: none;
+    color: var(--background-color);
 
-.usuario-footer li::before{
+}
+
+.user-footer li::before{
     content: '►';
     margin-right: 10px;
 }
-.redes-footer h4{
+.social-footer h4{
     color: var(--background-color);
     font-size: 25px;
     margin-top: 20px;
 }
-.redes-icons{
+.social-icons{
     height: 25px;
     margin-left: 10px;
     margin-top: 10px;
 }
-.correo{
+.mail{
     height:28px;
 }
 
-.atencion-footer h3{
+.atention-footer h3{
     color: var(--background-color);
     margin-left: 10px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.atencion-footer li{
+.atention-footer li{
     color: var(--background-color);
     margin-top: 10px;
 }
@@ -275,23 +285,27 @@ p,a,li{
     font-size: 15px;
     font-weight: 500;
 }
-.opciones-footer h3{
+.btn:hover{
+    background-color: var(--third-color);
+    color: var(--background-color);
+}
+.options-footer h3{
     color: var(--background-color);
     margin-top: 15px;
 }
-.opciones-footer li{
+.options-footer li{
     color: var(--background-color);
     margin-top: 10px;
     font-size: 18px;
 }
-.derechos {
-    width: 100%;
-    text-align: center;
+.rights{
+    width: 100%; 
+    text-align: center; 
     margin-top: 20px;
-    padding-top: 20px;
+    padding-top: 20px; 
     border-top: 1px solid #ddd;
 }
-.derechos p{
+.rights p{
     color: var(--background-color);
 }
 

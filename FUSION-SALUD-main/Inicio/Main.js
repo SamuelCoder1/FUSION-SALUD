@@ -1,30 +1,16 @@
-let slider = document.querySelector(".slider-contenedor")
-let sliderIndividual = document.querySelectorAll(".contenido-slider")
-let contador = 1;
-let width = sliderIndividual[0].clientWidth;
-let intervalo = 3000;
-
-window.addEventListener("resize", function(){
-    width = sliderIndividual[0].clientWidth;
-})
-
-setInterval(function(){
-    slides();
-},intervalo);
-
-
-
-function slides(){
-    slider.style.transform = "translate("+(-width*contador)+"px)";
-    slider.style.transition = "transform 2s";
-    contador++;
-
-    if(contador == sliderIndividual.length){
-        setTimeout(function(){
-            slider.style.transform = "translate(0px)";
-            slider.style.transition = "transform .9s";
-            contador=1;
-        },1500)
-    }
+window.addEventListener('mouseover', initLandbot, { once: true });
+window.addEventListener('touchstart', initLandbot, { once: true });
+var myLandbot;
+function initLandbot() {
+  if (!myLandbot) {
+    var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+    s.addEventListener('load', function() {
+      var myLandbot = new Landbot.Livechat({
+        configUrl: 'https://storage.googleapis.com/landbot.site/v3/H-2234796-WCBPDKGVQYP1HQ57/index.json',
+      });
+    });
+    s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  }
 }
-

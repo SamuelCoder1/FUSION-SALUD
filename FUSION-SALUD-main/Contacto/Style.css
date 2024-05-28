@@ -125,47 +125,52 @@ p,a,li{
     margin-right: 100px;
 }
 
-.usuario-footer{
+.user-footer{
     margin-top: 30px;
 }
 
-.usuario-footer h3{
+.user-footer h3{
     color: var(--background-color);
     margin-left: 10px;
     margin-bottom: 20px;
 }
 
-.usuario-footer  li{
-    color: var(--background-color);
+.user-footer  li{
     list-style: none;
+    color: var(--background-color);
     margin-top: 10px;
 }
+.user-footer a{
+    text-decoration: none;
+    color: var(--background-color);
 
-.usuario-footer li::before{
+}
+
+.user-footer li::before{
     content: '►';
     margin-right: 10px;
 }
-.redes-footer h4{
+.social-footer h4{
     color: var(--background-color);
     font-size: 25px;
     margin-top: 20px;
 }
-.redes-icons{
+.social-icons{
     height: 25px;
     margin-left: 10px;
     margin-top: 10px;
 }
-.correo{
+.mail{
     height:28px;
 }
 
-.atencion-footer h3{
+.atention-footer h3{
     color: var(--background-color);
     margin-left: 10px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.atencion-footer li{
+.atention-footer li{
     color: var(--background-color);
     margin-top: 10px;
 }
@@ -179,23 +184,27 @@ p,a,li{
     font-size: 15px;
     font-weight: 500;
 }
-.opciones-footer h3{
+.btn:hover{
+    background-color: var(--third-color);
+    color: var(--background-color);
+}
+.options-footer h3{
     color: var(--background-color);
     margin-top: 15px;
 }
-.opciones-footer li{
+.options-footer li{
     color: var(--background-color);
     margin-top: 10px;
     font-size: 18px;
 }
-.derechos {
+.rights{
     width: 100%; 
     text-align: center; 
     margin-top: 20px;
     padding-top: 20px; 
     border-top: 1px solid #ddd;
 }
-.derechos p{
+.rights p{
     color: var(--background-color);
 }
 

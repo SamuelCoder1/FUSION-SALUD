@@ -306,7 +306,11 @@ p,a,li{
 .user-footer{
     margin-top: 30px;
 }
+.user-footer a{
+    text-decoration: none;
+    color: var(--background-color);
 
+}
 .user-footer h3{
     color: var(--background-color);
     margin-left: 10px;

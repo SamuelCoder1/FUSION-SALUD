@@ -197,7 +197,11 @@ p,a,li{
     margin-left: 10px;
     margin-bottom: 20px;
 }
+.user-footer a{
+    text-decoration: none;
+    color: var(--background-color);
 
+}
 .user-footer  li{
     color: var(--background-color);
     list-style: none;

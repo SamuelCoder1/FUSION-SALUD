@@ -145,6 +145,7 @@ p,a,li{
 
 .information-notices{
     width: 40%;
+    margin-top: 50px;
 }
 
 .information-notices h2{
@@ -167,6 +168,10 @@ p,a,li{
     border-radius: 30px;
     border: none;
     margin-top: 40px;
+}
+.btn-notices a{
+    color: var(--background-color);
+    text-decoration: none;
 }
 .btn-notices:hover{
     scale: 1.06;
@@ -358,9 +363,14 @@ p,a,li{
 }
 
 .user-footer  li{
-    color: var(--background-color);
     list-style: none;
+    color: var(--background-color);
     margin-top: 10px;
+}
+.user-footer a{
+    text-decoration: none;
+    color: var(--background-color);
+
 }
 
 .user-footer li::before{

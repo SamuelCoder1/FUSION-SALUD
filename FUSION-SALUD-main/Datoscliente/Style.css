@@ -140,7 +140,11 @@ p,a,li{
     list-style: none;
     margin-top: 10px;
 }
+.user-footer a{
+    text-decoration: none;
+    color: var(--background-color);
 
+}
 .usuario-footer li::before{
     content: '►';
     margin-right: 10px;

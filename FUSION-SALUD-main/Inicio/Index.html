@@ -74,25 +74,26 @@
             <h2 class="notices-title">Ministerio de Salud y sus aportes a PDD</h2>
               <p>El Ministerio de Salud y Protección Social, liderado por el ministro Guillermo Alfonso Jaramillo, participó en la audiencia de medidas cautelares nacional convocada por la Jurisdicción Especial para la Paz (JEP). ...
                 </p>
-              <button class=" btn-notices">Leer mas</button>
+              <button class=" btn-notices"> <a href="https://www.mintrabajo.gov.co/relaciones-laborales/riesgos-laborales/plan-nacional-de-seguridad-y-salud-en-el-trabajo-2013-2021">Leer más</a></button>
           </div>
         </section>
         <section class="contenido-slider">
-          <img src="./assets/Img/noticia3.jpg" alt="">
+          <img src="./assets/Img/noticia2.avif" alt="">
           <div class="information-notices">
-            <h2 class="notices-title">Ministerio de Salud y sus aportes a PDD</h2>
-              <p>El Ministerio de Salud y Protección Social, liderado por el ministro Guillermo Alfonso Jaramillo, participó en la audiencia de medidas cautelares nacional convocada por la Jurisdicción Especial para la Paz (JEP). ...
+            <h2 class="notices-title">Países  aún no definen  acuerdo para enfrentar futuras pandemias</h2>
+              <p>
+                Durante esta semana los Estados Miembros de la Organización Mundial de la Salud  buscan definir un convenio jurídico sobre pandemias para responder a futuras situaciones como la generó el covid-19 en el mundo.
                 </p>
-              <button class=" btn-notices">Leer mas</button>
+              <button class=" btn-notices"><a href="https://www.elespectador.com/salud/paises-de-la-oms-aun-no-definen-el-acuerdo-para-enfrentar-futuras-pandemias/">Leer más</a></button>
           </div>
         </section>
         <section class="contenido-slider">
-          <img src="./assets/Img/noticia3.jpg" alt="">
+          <img src="./assets/Img/noticia3.avif" alt="">
           <div class="information-notices">
-            <h2 class="notices-title">Ministerio de Salud y sus aportes a PDD</h2>
-              <p>El Ministerio de Salud y Protección Social, liderado por el ministro Guillermo Alfonso Jaramillo, participó en la audiencia de medidas cautelares nacional convocada por la Jurisdicción Especial para la Paz (JEP). ...
+            <h2 class="notices-title"> No te automediques con  antibióticoa</h2>
+              <p>A mediados de 2023, un hombre de 80 años ingresó a urgencias de un hospital en Buenos Aires por una psicosis infecciosa. “Deliraba; estaba tan fuera de sí que tuvimos que administrarle un sedante para poder examinarlo”...
                 </p>
-              <button class="btn-notices">Leer mas</button>
+              <button class="btn-notices"> <a href="https://www.elespectador.com/salud/deberia-leer-esto-la-proxima-vez-que-piense-en-automedicarse-con-un-antibiotico/">Leer más</a></button>
           </div>
         </section>
     </div>
@@ -111,10 +112,10 @@
           </p>
       </div>
       <div class="item">
-        <img src="./assets/Img/psicologia.png" alt="">
-          <h1>Apoyo Psicologico</h1>
+        <img src="./assets/Img/robot.png" alt="">
+          <h1>Chat Bot</h1>
           <p>
-
+            mejoramos la experiencia del usuario al proporcionar asistencia y respuestas inmediatas las 24 horas del día. Ayuda a gestionar citas, responder preguntas frecuentes, enviar recordatorios  y ofrecer información confiable sobre salud.
           </p>
           
       </div>
@@ -193,11 +194,11 @@
       <div class="user-footer">
           <h3>Usuario</h3>
           <ul>
-              <li>Mi plan</li>
-              <li>Certificado de afiliacion</li>
-              <li>Derechos del afiliado</li>
-              <li>Deberes del afiliado</li>
-              <li>Preguntas Frecuentes</li>
+              <li><a href="../Datoscliente/Index.html">Mi plan</a></li>
+              <li><a href="../Datoscliente/Index.html">Certificado de afiliacion</a></li>
+              <li><a href="">Derechos del afiliado</a></li>
+              <li><a href="">Deberes del afiliado</a></li>
+              <li><a href="../preguntas-frecuentes/Index.html">Preguntas Frecuentes</a></li>
           </ul>
           <div class="horizontal"></div>
 
@@ -243,33 +244,13 @@
       </div>
   </div>
 </footer>
-<!-- -------------------------------Chat bot---------------------------- -->
-<script>
-  window.addEventListener('mouseover', initLandbot, { once: true });
-  window.addEventListener('touchstart', initLandbot, { once: true });
-  var myLandbot;
-  function initLandbot() {
-    if (!myLandbot) {
-      var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
-      s.addEventListener('load', function() {
-        var myLandbot = new Landbot.Livechat({
-          configUrl: 'https://storage.googleapis.com/landbot.site/v3/H-2234796-WCBPDKGVQYP1HQ57/index.json',
-        });
-      });
-      s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s, x);
-    }
-  }
-  </script>
-
-
 <!-- -------------Enlace JS boostrap---------- -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 <!-- ------------------------------------------- -->
   <Script src="Main.js"></Script>
   <Script src="services/slider.js"></Script>
+  <Script src="services/slider2.js"></Script>
   <Script src="services/window.js"></Script>
   
 </body>
