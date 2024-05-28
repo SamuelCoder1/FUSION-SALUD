@@ -140,7 +140,7 @@ p,a,li{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 0 5% 0;
+    padding: 0 0 1.5% 0;
 }
 
 .line{
@@ -302,6 +302,202 @@ p,a,li{
 
 /* ------------------SLIDER------------- */
 
+.container2{
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+    gap: 0px;
+}
+
+#title-client{
+    text-align: center ;
+    font-size: 3.5rem;
+    font-weight: 550;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+.slider-container{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+.content-slider{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.content-pets{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-pets{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img-pets1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/Img/mascota1.jpeg);
+    border-radius: 360px;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.img-pets2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/Img/mascota2.jpg);
+    border-radius: 360px;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.img-pets3{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/Img/mascota3.png);
+    border-radius: 360px;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.img-pets4{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/Img/mascota4.png);
+    border-radius: 360px;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.img-pets5{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/Img/mascota5.png);
+    border-radius: 360px;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.img-pets6{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/Img/mascota6.png);
+    border-radius: 360px;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.img-pets7{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/Img/mascota7.png);
+    border-radius: 360px;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.img-pets8{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/Img/mascota8.png);
+    border-radius: 360px;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.img-pets9{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/Img/mascota9.png);
+    border-radius: 360px;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.text-pets{
+    width: 80%;
+    text-align: center;
+    font-size: 25px;
+}
 
 
 /* --------------FOOTER------------ */
