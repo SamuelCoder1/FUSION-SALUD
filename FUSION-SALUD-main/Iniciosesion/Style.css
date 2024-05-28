@@ -122,7 +122,7 @@ body{
     margin: 0 10px;
     color: #333;
     border: solid thin;
-    transition: background-color 0.3s ease;
+    transition:  0.3s ease;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
 
 }
@@ -165,7 +165,8 @@ body{
 .log {
     background-color: #06A1B4;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
     border-radius: 20px;
     padding: 10px 15px;
     cursor: pointer;
@@ -175,6 +176,8 @@ body{
 
 .log:hover {
     background-color:#092F45 ;
+    color: #FFFFFF;
+    font-weight: 500;
 }
 .option{
     display: flex;

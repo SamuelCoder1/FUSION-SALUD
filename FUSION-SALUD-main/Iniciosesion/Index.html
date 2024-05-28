@@ -41,7 +41,7 @@
       </div>
     <p>O usa tu email para registrarte</p>
     <form class="form">
-      <label><input type="text" placeholder="Nombre completo"></label>
+      <label><input type="text" placeholder="Nombre completo" required></label>
       <label>
         <select>
           <option value="DNI">Tipo de documento</option>
@@ -50,12 +50,12 @@
           <option value="Tarjeta de Identidad">Tarjeta de identidad</option>
         </select>
       </label>
-      <label><input type="text" placeholder="Numero de documento"></label>
-      <label><input type="email" placeholder="Email"></label>
-      <label><input type="text" placeholder="Contraseña"></label>
+      <label><input type="text" placeholder="Numero de documento" required></label>
+      <label><input type="email" placeholder="Email" required></label>
+      <label><input type="text" placeholder="Contraseña" required></label>
       <div class="option">
-          <a href="#" class="log">Registrarse</a>
-      <a><input type="checkbox" placeholder=""> Aceptar terminos y condiciones</a>
+          <a href="#login" class="log">Registrarse</a>
+      <a><input type="checkbox"  required> Aceptar terminos y condiciones</a>
       </div>
     </form>
     </div>
@@ -63,7 +63,7 @@
 </div>
 
 
-<div class="container-form hide login" >
+<div id="login" class="container-form hide login" >
   <div class="information">
     <div class="info-childs">
       <h2>Bienvenido nuevamente</h2>
@@ -82,10 +82,10 @@
       </div>
     <p>O inicia sesión con una cuenta</p>
     <form class="form">
-      <label><input type="text" placeholder="Numero de documento"></label>
-      <label><input type="text" placeholder="Contraseña"></label>
+      <label aria-required="true"><input type="text" placeholder="Numero de documento" ></label>
+      <label><input type="text" placeholder="Contraseña" required></label>
       <div class="option">
-      <a href="/FUSION-SALUD/FUSION-SALUD-main/Datoscliente/Index.html" class="log">Enviar</a>
+      <a href="../Datoscliente/Index.html" class="log">Empezar</a>
       <input type="button" value="¿Olvidaste tu contraseña?" id="open"> 
     </div>
     </form>
@@ -95,6 +95,7 @@
   <div class="window emergent">
     <a href="#" id="close"><img src="/FUSION-SALUD-main/Iniciosesion/assets/Img/close.png" alt="X"></a>
     <div class="text-center">
+      <h2>¿Olvidaste tu contraseña?</h2>
     <p>Para verificar su identidad, confirme su correo electrónico</p>
     <label><input type="email" placeholder="Email"></label>
     <input id="BTN" type="submit" placeholder="Enviar">
