@@ -127,9 +127,11 @@ section{
 }
 /* Formulario de contacto*/
 form.form_contact{
-    width: 50%;
-    padding: 30px 40px;
+    width: 60%;
+    padding: 30px 50px;
     margin-top: 160px;
+    background-color: #86c5cd93;
+    border-radius: 30px;
 }
 
 form.form_contact h2{
@@ -171,11 +173,11 @@ form.form_contact textarea{
 
 form.form_contact input[type="button"]{
     width: 180px;
-	background: #4091EC;
+	background: #092F45;
 	padding: 10px;
 	border: none;
 	border-radius: 25px;
-    align-self: flex-end;
+    align-self:center;
     color: #fff;
 	font-family: 'Open sans';
 	font-size: 16px;
@@ -188,11 +190,13 @@ form.form_contact input[type="button"]:hover{
 }
 
 .image{
-    width: 50%;
-    margin-top: 160px;
+    width: 40%;
+    margin-top: 200px;
+    margin-left: 20px;
+    object-fit: cover;
 }
 .image img{
-    height: 440px;
+    height: 350px;
     width: 600px;
     border-radius: 20px;
 }

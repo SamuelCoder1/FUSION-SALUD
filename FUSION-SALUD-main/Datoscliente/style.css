@@ -39,7 +39,7 @@ p,a,li{
 }
 
 .navbar-nav{
-    margin-left:45%;
+    margin-left:29%;
     gap: 20px;
 }
 
@@ -256,7 +256,7 @@ section{
 
 @media (max-width:1250px){
     .navbar-nav{
-        margin-left:23%;
+        margin-left:29%;
         gap: 10px;
     }
     .img-footer{
@@ -283,7 +283,7 @@ section{
         display: none;
     }
     .navbar-nav{
-        margin-left:5%;
+        margin-left:15%;
         gap: 0px;
         align-items: center;
     }

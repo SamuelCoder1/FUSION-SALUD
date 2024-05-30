@@ -39,7 +39,7 @@ p,a,li{
 }
 
 .navbar-nav{
-    margin-left:45%;
+    margin-left:29%;
     gap: 20px;
 }
 
@@ -306,7 +306,7 @@ p,a,li{
 /* -------------------------------------Responsive--------------------- */
 @media (max-width:1650px){
     .navbar-nav{
-        margin-left:23%;
+        margin-left:32%;
         gap: 10px;
     }
     .img-footer{
