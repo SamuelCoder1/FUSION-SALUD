@@ -40,23 +40,32 @@
         <i class='bx bxl-linkedin'></i>
       </div>
     <p>O usa tu email para registrarte</p>
-    <form class="form">
-      <label><input type="text" id="name" placeholder="Nombre completo"></label>
-      <label id="type">
-        <select>
-          <option value="DNI">Tipo de documento</option>
-          <option value="Cédula">Cédula de Identidad</option>
-          <option value="Pasaporte">Pasaporte</option>
-          <option value="Tarjeta de Identidad">Tarjeta de identidad</option>
-        </select>
-      </label>
-      <label><input type="text" id="number" placeholder="Numero de documento" ></label>
-      <label><input type="email" placeholder="Email" id="email" ></label>
-      <label><input type="text" placeholder="Contraseña" id="password" ></label>
+    <form class="form form-register" novalidate>
+      <div>
+        <label><input type="text" placeholder="Nombre completo" name="username"></label>
+      </div>
+      <div>
+        <label>
+          <select>
+            <option value="DNI">Tipo de documento</option>
+            <option value="Cédula">Cédula de Identidad</option>
+            <option value="Pasaporte">Pasaporte</option>
+            <option value="Tarjeta de Identidad">Tarjeta de identidad</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label><input type="text"  placeholder="Numero de documento" name="id"></label>
+      </div>
+      <div>
+        <label><input type="email" placeholder="Email" name="userEmail" ></label>
+      </div>
+      <div>
+        <label><input type="text" placeholder="Contraseña" name="userPassword" ></label>
+      </div>
       <div class="option">
-        <a><input type="checkbox" id="conditions"> Aceptar terminos y condiciones</a>
+        <a><input type="checkbox"> Aceptar terminos y condiciones</a>
           <a href="#login" class="log" id="sign">Registrarse</a>
-          <p class="warnings" id="warnings"></p>
       </div>
     </form>
     </div>
@@ -82,9 +91,13 @@
         <i class='bx bxl-linkedin'></i>
       </div>
     <p>O inicia sesión con una cuenta</p>
-    <form class="form">
-      <label><input type="text" placeholder="Numero de documento" ></label>
-      <label><input type="text" placeholder="Contraseña"></label>
+    <form class="form form-login" novalidate>
+      <div>
+        <label><input type="text" placeholder="Numero de documento" name="userId" ></label>
+      </div>
+      <div>
+        <label><input type="text" placeholder="Contraseña" name="userPassword"></label>
+      </div>
       <div class="option">
       <a href="../Datoscliente/Index.html" class="log">Empezar</a>
       <input type="button" value="¿Olvidaste tu contraseña?" id="open"> 
