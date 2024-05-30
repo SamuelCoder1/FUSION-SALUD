@@ -34,3 +34,30 @@ function slides(){
     }
 }
 
+let btnConsultation = document.querySelector(".consultation"),
+    btnEsthetic = document.querySelector(".esthetic"),
+    btnSurgery = document.querySelector(".surgery"),
+    objetive = document.getElementById("objetive"),
+    consultation = document.getElementById("veterinary-consultation")
+    Aesthetics = document.getElementById("Aesthetics"),
+    diagnoses = document.getElementById("diagnoses"),
+    hide = document.querySelector(".hide");
+
+btnConsultation.addEventListener("click", e => {
+    objetive.classList.add("hide");
+    Aesthetics.classList.add("hide");
+    diagnoses.classList.add("hide");
+    consultation.classList.remove("hide");
+})
+btnEsthetic.addEventListener("click", e => {
+    objetive.classList.add("hide");
+    consultation.classList.add("hide");
+    diagnoses.classList.add("hide");
+    Aesthetics.classList.remove("hide");
+})
+btnSurgery.addEventListener("click", e => {
+    objetive.classList.add("hide");
+    consultation.classList.add("hide");
+    Aesthetics.classList.add("hide");
+    diagnoses.classList.remove("hide");
+})
