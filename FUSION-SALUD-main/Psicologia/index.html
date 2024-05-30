@@ -20,67 +20,57 @@
 <body>
 <!----------------------Nav-------------------------------->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <img class="img-nav" src="./assets/Img/logoSinFondo (1).png" alt="">
-    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active " aria-current="page" href="../Inicio/index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="../Sobre Nosotros/index.html">Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="../Servicio Veterinario/index.html">Veterinaria</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Más
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item opcion-mas" href="../Solicitud de cita/index.html">Solicita tu cita</a></li>
-            <li><a class="dropdown-item opcion-mas" href="../Psicologia/index.html">Apoyo Psicologico</a></li>
-            <li><a class="dropdown-item opcion-mas" href="../Preguntas Frecuentes/index.html">Pqrs</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="../Contacto/index.html">Contacto</a>
-        </li>
-        <div class="vr"></div>
-        <div class="horizontal"></div>
-        <li class="nav-item">
-          <a class="nav-link active" href="../Iniciosesion/index.html">Login</a>
-        </li>
-      </ul>
+    <div class="container-fluid">
+      <img class="img-nav" src="./assets/Img/logoSinFondo (1).png" alt="">
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="../Inicio/index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../Sobre Nosotros/index.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../Servicio Veterinario/index.html">Veterinaria</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Más
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item opcion-mas" href="../Solicitud de cita/index.html">Solicita tu cita</a></li>
+              <li><a class="dropdown-item opcion-mas" href="../Psicologia/index.html">Apoyo Psicologico</a></li>
+              <li><a class="dropdown-item opcion-mas" href="../Preguntas Frecuentes/index.html">Pqrs</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../Contacto/index.html">Contacto</a>
+          </li>
+          <div class="vr"></div>
+          <div class="horizontal"></div>
+          <li class="nav-item">
+            <a class="nav-link active" href="../Iniciosesion/index.html">Login</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
-  <center>
-<section>
-
-  <br><br><br><br><br><br>
-  <h2>Datos de usuario</h2>
-  <div class="user">
-    <div>
-      <p>Nombre: </p>
-      <p>Documento: </p>
-      <p>Estado: </p>
-      <p>Categoria: </p>
-      <p>IPS: </p>
+  </nav>
+<section class="ia">
+    <div class="title-ia">
+        <h1>Apoyo Psicologico </h1>
+        <hr>
     </div>
-    <img src="./assets/Img/usuario.png" alt="#">
-  </div>
-  <hr>
-    <div class="option">
-      <a href="#"><img src="./assets/Img/usuario.png" alt=""><p>Actualiza tus datos</p></a>
-      <a href="https://1drv.ms/w/s!AtsxFq8SLPV4gjvwj31HlcIW16br?e=0Xz0yf"><img src="./assets/Img/certificado.png" alt=""><p>Certificados</p></a>
-      <a href="../Cambio-plan/index.html"><img src="./assets/Img/plan.png" alt=""><p>Cambia tu plan</p></a>
-    </div>
-    <hr>
-</center>
+    <script SameSite="None; Secure" src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.js"></script>
+    <div id="myLandbot" style="width: 100%; height: 500px"></div>
+    <script>
+      var myLandbot = new Landbot.Container({
+        container: '#myLandbot',
+        configUrl: 'https://storage.googleapis.com/landbot.site/v3/H-2499330-L0S8PN047IOXPSVI/index.json',
+      });
+    </script>
 </section>
 <footer >
   <div class="footer">
@@ -142,37 +132,10 @@
       </div>
   </div>
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- -------------Enlace JS boostrap---------- -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 <!-- ------------------------------------------- -->
-    <Script src="Main.js"></Script>
 </body>
 </html>
+
