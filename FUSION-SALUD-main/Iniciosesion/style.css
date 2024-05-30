@@ -192,14 +192,15 @@ body{
     margin-top: 15px;
     font-size: .8rem;
 }
-
-.warnings{
-    width: 200px;
-    text-align: center;
-    margin: auto;
-    color: #b00000;
-    padding-top: 20px;
+/* personalizacion de alertas */
+.warnings {
+    width: 290px;
+    text-align: left;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    font-size: .8rem;
 }
+/* - ----------------- -*/
 
 .hide{
     position: absolute;
