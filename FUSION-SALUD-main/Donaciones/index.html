@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusión Salud</title>
+<!----------------------- Enlace CSS boostrap------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+<!-- ------------------------------------------------------------->
+</head>
+<!------------------------------ Fuentes------------------------>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap');
+  </style>
+<!----------------------------------------------- -->
+<body>
+<!----------------------Nav-------------------------------->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <img class="img-nav" src="./assets/Img/logoSinFondo (1).png" alt="">
+    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active " aria-current="page" href="../Inicio/index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../Sobre Nosotros/index.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../Servicio Veterinario/index.html">Veterinaria</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Más
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item opcion-mas" href="../Solicitud de cita/index.html">Solicita tu cita</a></li>
+            <li><a class="dropdown-item opcion-mas" href="../Psicologia/index.html">Apoyo Psicologico</a></li>
+            <li><a class="dropdown-item opcion-mas" href="../Preguntas Frecuentes/index.html">Pqrs</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../Contacto/index.html">Contacto</a>
+        </li>
+        <div class="vr"></div>
+        <div class="horizontal"></div>
+        <li class="nav-item">
+          <a class="nav-link active" href="../Iniciosesion/index.html">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<main>
+  <div class="main" id="donation">
+    <div class="title">
+      <h1>Donaciones</h1>
+      <hr>
+    </div>
+    <div class="ways-donate" >
+      <div class="chart">
+        <h4>¡Donar ahora!</h4>
+        <div class="btns">
+          <div class="btn-margin"><button class="btn1 btn-justonce">Una sola vez</button></div>
+          <div><button class="btn1 btn-monthly">Mensualmente</button></div>
+        </div>
+        <div class="btn-money"> 
+          <button class="btn-donate">$ 100.000</button>
+          <button class="btn-donate">$ 50.000</button>
+          <button class="btn-donate">$ 10.000</button>
+        </div>
+        <div>
+          <input class="btn-buy" type="number" placeholder="$ Other"></input>
+          <label class="usd" for="btn-cop">COP</label>
+        </div>
+        <div class="agree">
+        <input class="check" type="checkbox">
+        <label for="check">Acepto  <a href="">Terminos & Condicione </a></label>
+      </div>
+        <div class="btn-continue">
+        <button class="continue">Continuar</button>
+      </div>
+    </div>
+
+    <div class="imgways">
+      <img src="assets/Img/donaciones-manos.jpg" alt="imgDonar">
+    </div>
+  </div>
+  <div class="seccion-question">
+    <div class="question">
+      <p>¿Quieres donar productos de salud o equipos médicos que ya no utilizas?</p>
+    </div>
+    <div class="form"> <span>Contactanos</span>
+      <img src="assets/Img/flechaAbajo.png" alt="imgFlechaAbajo" width="40px">
+      <button class="btn-form">Aquí</button>
+    </div>
+  </div>
+  <div class="diferent">
+    <div class="title-diferent">
+      Fusión Salud Hace La Diferencia
+    </div>
+    <div class="conten-diferent">
+      <div class="letter">
+        <p class="title-letter">Gracias a tu ayuda</p>
+        <p class="paragraph">Conoce las hisotias de aquellas personas que gracias a tu ayuda han recibido sus medicamentos, atencion medica y equipos medicos que necesitan para cuntinuar con su vida</p>
+        <p class="paragraph">Unete al grupo de personas dispuestos a contribuir en la mejora de la salud de las personas que mas lo necesitan.</p>
+        <button class="btn-diferent"><a href="#donation">Unete hoy</a></button>
+      </div>
+      <div class="image-does">
+        <img src="assets/Img/Abuelos.jpg" alt="ImgHistoria" width="200px">
+        <p class="title-letter2">Silvia Figueroa</p>
+        <p class="paragraph">Tu contribución permitió a la Sra. Silvia Figuero Recibir una silla de ruedas para poder movilizarse.</p>
+        <a href="" id="history">Conoce su historia</a>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+<footer >
+  <div class="footer">
+      <div class="logo-footer">
+          <img  class=" img-footer" src="./assets/Img/logoSinFondo (1).png" alt="">
+      </div>
+          <div class="vr vr2"></div>
+          <div class="horizontal"></div>
+      <div class="user-footer">
+          <h3>Usuario</h3>
+          <ul>
+              <li><a href="../Datoscliente/Index.html">Mi plan</a></li>
+              <li><a href="../Datoscliente/Index.html">Certificado de afiliacion</a></li>
+              <li><a href="https://1drv.ms/w/s!AtsxFq8SLPV4gj0luxFocSn_FRja?e=fMFIO2">Derechos del afiliado</a></li>
+              <li><a href="https://1drv.ms/w/s!AtsxFq8SLPV4gj9SyMjvIkfMhTyW?e=bkvxs4">Deberes del afiliado</a></li>
+              <li><a href="../preguntas-frecuentes/Index.html">Preguntas Frecuentes</a></li>
+          </ul>
+          <div class="horizontal"></div>
+
+          <div class="social-footer">
+              <h4>Redes Sociales</h4>
+              <!-- redes icons -->
+              <img class="social-icons" src="./assets/Img/facebook.png" alt="">
+              <img class="social-icons" src="./assets/Img/instagram.png" alt="">
+              <img class="social-icons" src="./assets/Img/medios-de-comunicacion-social.png" alt="">
+              <img class="social-icons mail"  src="./assets/Img/correo-electronico.png" alt="">
+          </div>
+      </div>
+      <div class="vr vr2"></div>
+      <div class="horizontal"></div>
+      <div class="atention-footer">
+          <h3>Lineas de atención</h3>
+          <ul>
+              <li>Bogotá: 316 552 8799</li>
+              <li>Medellín: 376 845 0765</li>
+              <li>Cali: 357 321 1975</li>
+              <li>Cartagena: 330 450 6590</li>
+              <li>Bucaramanga: 322 789 4571</li>
+              <li>Linea nacional: 018000 5678 1056</li>
+          </ul>
+      </div>
+      <div class="vr vr2"></div>
+      <div class="horizontal"></div>
+      <div class="options-footer">
+          <button class="btn"><a href="../Iniciosesion/index.html">Registrarme</a></button>
+          <button class="btn"><a href="../Iniciosesion/index.html">Iniciar sesión</a></button>
+          <div class="options-footer">
+              <h3>Unete a nosotros</h3>
+              <ul>
+                  <li>Descubre lo que tenemos para ti</li>
+                  <li>Me interesa unirme al proyecto</li>
+              </ul>
+          </div>
+      </div>
+      <div class="rights">
+          <p>
+          @ Copyright 2024 | Fusion Salud S.A.S. | Entidad de salud privada
+          </p>
+      </div>
+  </div>
+</footer>
+<!-- -------------Enlace JS boostrap---------- -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<!-- ------------------------------------------- -->
+<Script src="main.js"></Script>
+<Script src="services/slider.js"></Script>
+<Script src="services/slider2.js"></Script>
+<Script src="services/window.js"></Script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -------------Enlace JS boostrap---------- -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<!-- ------------------------------------------- -->
+    <Script src="main.js"></Script>
+</body>
+</html>
