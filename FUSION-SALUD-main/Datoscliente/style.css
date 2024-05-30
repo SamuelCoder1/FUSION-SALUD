@@ -226,6 +226,10 @@ section{
     font-size: 15px;
     font-weight: 500;
 }
+.btn a{
+    color: var(--background-color);
+    text-decoration: none;
+}
 .btn:hover{
     background-color: var(--third-color);
     color: var(--background-color);

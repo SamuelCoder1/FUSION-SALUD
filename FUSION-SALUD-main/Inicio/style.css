@@ -411,9 +411,13 @@ p,a,li{
     margin-top: 30px;
     border-radius: 40px;
     margin-left: 5px;
-    color: var(--background-color);
     font-size: 15px;
     font-weight: 500;
+    
+}
+.btn a{
+    color: var(--background-color);
+    text-decoration: none;
 }
 .btn:hover{
     background-color: var(--third-color);
