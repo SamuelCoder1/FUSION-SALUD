@@ -37,7 +37,7 @@ p,a,li{
 
 .navbar-nav{
     margin-left:40%;
-    gap: 20px;
+    gap:20px;
 }
 
 .nav-link{
@@ -399,7 +399,7 @@ p,a,li{
 
 @media (max-width:1550px){
     .navbar-nav{
-        margin-left:40%;
+        margin-left:30%;
         gap: 10px;
     }
     .img-footer{
@@ -407,6 +407,11 @@ p,a,li{
         margin-left: 25px;
         margin-top: 50px;
         margin-right: 50px;
+    }
+     .navbar-nav{
+        margin-left:30%;
+        gap: 0px;
+        align-items: center;
     }
 
     .img-mission2{

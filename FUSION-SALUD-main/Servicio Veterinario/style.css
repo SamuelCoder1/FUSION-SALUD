@@ -37,7 +37,7 @@ p,a,li{
 }
 
 .navbar-nav{
-    margin-left:45%;
+    margin-left:28%;
     gap: 20px;
 }
 
@@ -626,7 +626,7 @@ p,a,li{
 @media (max-width:1250px){
     .navbar-nav{
         margin-left:23%;
-        gap: 10px;
+        gap: 20px;
     }
     .img-footer{
         height: 105px;
