@@ -42,7 +42,7 @@
     <p>O usa tu email para registrarte</p>
     <form class="form form-register" novalidate>
       <div>
-        <label><input type="text" placeholder="Nombre completo" name="username"></label>
+        <label><input type="text" placeholder="Nombre completo" name="username"  aria-required="true"></label>
       </div>
       <div>
         <label>
@@ -55,13 +55,13 @@
         </label>
       </div>
       <div>
-        <label><input type="text"  placeholder="Numero de documento" name="id"></label>
+        <label><input type="text"  placeholder="Numero de documento" name="id" required aria-required="true"></label>
       </div>
       <div>
-        <label><input type="email" placeholder="Email" name="userEmail" ></label>
+        <label><input type="email" placeholder="Email" name="userEmail" required></label>
       </div>
       <div>
-        <label><input type="text" placeholder="Contraseña" name="userPassword" ></label>
+        <label><input type="text" placeholder="Contraseña" name="userPassword" required></label>
       </div>
       <div class="option">
         <a><input type="checkbox"> Aceptar terminos y condiciones</a>
@@ -79,7 +79,7 @@
       <h2>Bienvenido nuevamente</h2>
       <p>¿Aùn no tienes cuenta?
         Registrate</p>
-      <input type="button" value="Registrarse" id="sign-up">
+      <input type="submit" value="Registrarse" id="sign-up">
     </div>
   </div>
   <div class="form-information">
@@ -93,14 +93,14 @@
     <p>O inicia sesión con una cuenta</p>
     <form class="form form-login" novalidate>
       <div>
-        <label><input type="text" placeholder="Numero de documento" name="userId" ></label>
+        <label><input type="text" placeholder="Numero de documento" name="userId" required></label>
       </div>
       <div>
-        <label><input type="text" placeholder="Contraseña" name="userPassword"></label>
+        <label><input type="text" placeholder="Contraseña" name="userPassword" required></label>
       </div>
       <div class="option">
-      <a href="../Datoscliente/Index.html" class="log">Empezar</a>
-      <input type="button" value="¿Olvidaste tu contraseña?" id="open"> 
+      <a href="../Datoscliente/index.html" class="log">Empezar</a>
+      <input type="submit" value="¿Olvidaste tu contraseña?" id="open"> 
     </div>
     </form>
     </div>
@@ -122,6 +122,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 <!-- ------------------------------------------- -->
-    <Script src="Main.js"></Script>
+    <Script src="main.js"></Script>
 </body>
 </html>

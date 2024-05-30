@@ -42,6 +42,10 @@ let btnConsultation = document.querySelector(".consultation"),
     Aesthetics = document.getElementById("Aesthetics"),
     diagnoses = document.getElementById("diagnoses"),
     hide = document.querySelector(".hide");
+    Aesthetics.style.transition = "transition(5s)";
+    diagnoses.style.transform = "transform 10s";
+    consultation.style.transition = "transition 10s";
+    objetive.style.transition = "transform 10s";
 
 btnConsultation.addEventListener("click", e => {
     objetive.classList.add("hide");

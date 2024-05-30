@@ -17,7 +17,8 @@ btnSigUp.addEventListener("click", e => {
     containerFormRegister.classList.remove("hide");
 })
 
-// btnRegister.addEventListener("click", e => {
-//   containerFormRegister.classList.add("hide");
-//   containerFormLogin.classList.remove("hide");
-// })
+btnRegister.addEventListener("click", e => {
+  containerFormRegister.classList.add("hide");
+  containerFormLogin.classList.remove("hide");
+})
+

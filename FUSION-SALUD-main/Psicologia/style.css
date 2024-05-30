@@ -114,7 +114,21 @@ p,a,li{
     margin: auto;
     padding: 150px 0 50px 0 ;
     top: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
+
+.container-warning{
+    width: 100%;
+}
+
+.warning{
+    color: var(--second-color);
+    font-weight: 800;
+    text-align: center;
+}
+
 .title-ia h1{
     text-align: center;
     font-size: 3.5rem;
