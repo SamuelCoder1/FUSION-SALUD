@@ -620,7 +620,10 @@ p,a,li{
 .rights p{
     color: var(--background-color);
 }
-
+.btn2 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 /* --------------RESPONSIVE NAV AND FOOTER */
 
 @media (max-width:1250px){
