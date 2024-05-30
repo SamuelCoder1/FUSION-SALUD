@@ -398,10 +398,6 @@ p,a,li{
 }
 
 @media (max-width:1550px){
-    .navbar-nav{
-        margin-left:30%;
-        gap: 10px;
-    }
     .img-footer{
         height: 105px;
         margin-left: 25px;
@@ -410,7 +406,7 @@ p,a,li{
     }
      .navbar-nav{
         margin-left:30%;
-        gap: 0px;
+        gap: 20px;
         align-items: center;
     }
 
